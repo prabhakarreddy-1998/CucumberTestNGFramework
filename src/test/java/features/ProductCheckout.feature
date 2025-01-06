@@ -13,7 +13,7 @@ Feature: Validate product purchase flow with promo code on Greenkart Website
     And User clicks on the Apply button
     Then User should see a error message Invalid code ..!
 
-  @CheckoutProcess
+  @CheckoutProcess_params
   Scenario Outline: Add a product, apply promo code, and validate Error message for parameterized data
     Given User navigates to the Greenkart website
     And User searches for a product with the name <ProductName>
