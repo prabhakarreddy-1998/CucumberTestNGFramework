@@ -6,7 +6,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(features = "src/test/java/features",
-                 tags = "@CheckoutProcess_params", 
+                 tags = "@SearchProducts", 
                  glue = "stepDefinitions", 
                  plugin = { "pretty","html:target/reports/Cucumber-HTML-Report.html", 
                 		             "json:target/reports/Cucumber-Json-Report.json",

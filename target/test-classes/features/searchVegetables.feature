@@ -12,7 +12,7 @@ Feature: Search for a product on Greenkart Website
     And Extract the text of the filtered product from the offers page
     And Verify that the product available on the homepage also exists on the Offers page
 
-  @SearchProducts
+  @SearchProducts_params
   Scenario Outline: Search for a Multiple products and verify its availability in offers page
     Given User should be able to navigate to the Greenkart website
     And User should be able to view the homepage
